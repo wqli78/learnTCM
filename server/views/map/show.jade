@@ -2,18 +2,18 @@ extends ../layout-wide
 block content
       .mapWrapper
         .text-center.map-fixed-header
-            p Challenges required for certifications are marked with a *
+            p 标*课程为必做课程
             .row.map-buttons
-                button.center-block.btn.btn-block.btn-primary.active#showAll Collapse all challenges
+                button.center-block.btn.btn-block.btn-primary.active#showAll 展开全部课程
             .row.map-buttons
                 .input-group
-                    input#map-filter.form-control(type="text" placeholder="Type a challenge name" autocomplete="off" value="")
+                    input#map-filter.form-control(type="text" placeholder="输入课程名称" autocomplete="off" value="")
                     span.input-group-addon
                        i.fa.fa-search
             hr
             include ../partials/flash
         #accordion.map-accordion
-          #noneFound No results found. Happy Coding!
+          #noneFound 无搜索结果，请重试!
           for superBlock, index in superBlocks
               h2
                 a(data-toggle='collapse', data-parent='#accordion', href='#collapse'+superBlock.name.split(' ').join('-'))
@@ -34,12 +34,12 @@ block content
                                   if challenge.completed
                                       p.challenge-title.faded.text-primary.ion-checkmark-circled.padded-ionic-icon.negative-15(name="#{challenge.dashedName}")
                                           a(href="#{challenge.url}" target='_parent')
-                                              = challenge.title
+                                              = challenge.title + challenge.challengeType
                                               span.sr-only= " Complete"
                                   else if challenge.isRequired
                                       p.challenge-title.ion-ios-circle-outline.padded-ionic-icon.negative-15(name="#{challenge.dashedName}")
                                           a(name="#{challenge.dashedName}" target='_parent' href="#{challenge.url}" class=challenge.isComingSoon ? 'disabled' : '')
-                                              span= challenge.title
+                                              span= challenge.title + challenge.challengeType
                                               span.sr-only= " Incomplete"
                                           if challenge.markNew
                                               span.text-info.small &thinsp; &thinsp;
@@ -54,7 +54,7 @@ block content
                                   else
                                       p.challenge-title.ion-ios-circle-outline.padded-ionic-icon.negative-15(name="#{challenge.dashedName}")
                                           a(name="#{challenge.dashedName}" target='_parent' href="#{challenge.url}" class=challenge.isComingSoon ? 'disabled' : '')
-                                              span= challenge.title
+                                              span= challenge.title + challenge.challengeType
                                               span.sr-only= " Incomplete"
                                           if challenge.markNew
                                               span.text-info.small &thinsp; &thinsp;
@@ -68,14 +68,14 @@ block content
             a(data-toggle='collapse', data-parent='#accordion', href='#collapse-full-stack-development-certification')
               span.no-link-underline
                 i.fa.fa-caret-down &thinsp;
-              | Full Stack Development Certification
+              | 全栈开发认证
           div.margin-left-10(id = 'collapse-full-stack-development-certification' class = "collapse in map-collapse no-transition certBlock")
               #nested
                 h3
                   a(data-toggle='collapse', data-parent='#nested', href='#nested-collapse-nonprofit-projects')
                     span.no-link-underline
                       i.fa.fa-caret-down &thinsp;
-                    | Nonprofit Projects
+                    | 非营利项目
                   span.challengeBlockTime (800 hours)
                 div.margin-left-10(id = "nested-collapse-nonprofit-projects" class = "collapse in map-collapse no-transition chapterBlock")
                       .challengeBlockDescription To qualify for these nonprofit projects, you must first earn all three foundational certifications: Front End, Data Visualization, and Back End

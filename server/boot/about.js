@@ -13,7 +13,7 @@ export default function about(app) {
   const userCount$ = observeMethod(User, 'count');
 
   function showAbout(req, res, next) {
-    const daysRunning = moment().diff(new Date('10/15/2014'), 'days');
+    const daysRunning = moment().diff(new Date('1/15/2016'), 'days');
 
     userCount$()
       .map(camperCount => numberWithCommas(camperCount))
@@ -22,10 +22,9 @@ export default function about(app) {
           camperCount,
           daysRunning,
           title: dedent`
-            About our Open Source Community, our social media presence,
-            and how to contact us`.split('\n').join(' '),
+            关于莲池学堂以及如何联系我们`.split('\n').join(' '),
           globalCompletedCount: numberWithCommas(
-            5612952 + (Math.floor((Date.now() - 1446268581061) / 1800))
+            1000 + (Math.floor((Date.now() - 1446268581061) / 1800))
           )
         });
       })

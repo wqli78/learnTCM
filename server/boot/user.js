@@ -216,7 +216,7 @@ module.exports = function(app) {
       return res.redirect('/');
     }
     return res.render('account/signin', {
-      title: 'Sign in to Free Code Camp using a Social Media Account'
+      title: '登录进入'
     });
   }
 
@@ -230,7 +230,7 @@ module.exports = function(app) {
       return res.redirect('/');
     }
     return res.render('account/email-signin', {
-      title: 'Sign in to Free Code Camp using your Email Address'
+      title: '邮件登录'
     });
   }
 
@@ -239,7 +239,7 @@ module.exports = function(app) {
       return res.redirect('/');
     }
     return res.render('account/email-signup', {
-      title: 'Sign up for Free Code Camp using your Email Address'
+      title: '使用邮件注册'
     });
   }
 
@@ -250,7 +250,7 @@ module.exports = function(app) {
 
   function getSettings(req, res) {
     res.render('account/settings', {
-        title: 'Settings'
+        title: '设置'
     });
   }
 
@@ -275,7 +275,7 @@ module.exports = function(app) {
       .filter(userPortfolio => {
         if (!userPortfolio) {
           req.flash('errors', {
-            msg: `We couldn't find a page for ${ path }`
+            msg: `我们没发现这个页面： ${ path }`
           });
           res.redirect('/');
         }
@@ -352,7 +352,7 @@ module.exports = function(app) {
         user => {
           if (!user) {
             req.flash('errors', {
-              msg: `We couldn't find a user with the username ${username}`
+              msg: `我们没发现这个用户名 ${username}`
             });
             return res.redirect('/');
           }
@@ -425,7 +425,7 @@ module.exports = function(app) {
       return user.updateAttribute('isLocked', !user.isLocked, function(err) {
         if (err) { return next(err); }
         req.flash('info', {
-          msg: 'We\'ve successfully updated your Privacy preferences.'
+          msg: '成功升级了您的隐私设置.'
         });
         return res.redirect('/settings');
       });
@@ -441,7 +441,7 @@ module.exports = function(app) {
         (err) => {
           if (err) { return next(err); }
           req.flash('info', {
-            msg: 'We\'ve successfully updated your Email preferences.'
+            msg: '成功升级了您的邮件信息.'
           });
           return res.redirect('/settings');
         });
@@ -455,7 +455,7 @@ module.exports = function(app) {
         (err) => {
           if (err) { return next(err); }
           req.flash('info', {
-            msg: 'We\'ve successfully updated your Email preferences.'
+            msg: '成功升级了您的邮件信息.'
           });
           return res.redirect('/settings');
         }
@@ -472,7 +472,7 @@ module.exports = function(app) {
         function(err) {
           if (err) { return next(err); }
           req.flash('info', {
-            msg: 'We\'ve successfully updated your Email preferences.'
+            msg: '成功升级了您的邮件信息.'
           });
           return res.redirect('/settings');
       });
@@ -483,7 +483,7 @@ module.exports = function(app) {
     User.destroyById(req.user.id, function(err) {
       if (err) { return next(err); }
       req.logout();
-      req.flash('info', { msg: 'You\'ve successfully deleted your account.' });
+      req.flash('info', { msg: '您已成功删除了自己的账号' });
       return res.redirect('/');
     });
   }
@@ -494,7 +494,7 @@ module.exports = function(app) {
       return res.render('account/forgot');
     }
     return res.render('account/reset', {
-      title: 'Reset your Password',
+      title: '重新设定您的密码',
       accessToken: req.accessToken.id
     });
   }
@@ -514,7 +514,7 @@ module.exports = function(app) {
         if (err) { return next(err); }
 
         debug('password reset processed successfully');
-        req.flash('info', { msg: 'You\'ve successfully reset your password.' });
+        req.flash('info', { msg: '您已成功重设密码.' });
         return res.redirect('/');
       });
     });
@@ -525,7 +525,7 @@ module.exports = function(app) {
       return res.redirect('/');
     }
     return res.render('account/forgot', {
-      title: 'Forgot Password'
+      title: '忘记密码'
     });
   }
 
@@ -561,11 +561,11 @@ module.exports = function(app) {
       req.user.save(function(err) {
         if (err) { return next(err); }
 
-        req.flash('success', { msg: 'Thanks for voting!' });
+        req.flash('success', { msg: '感谢您的投票!' });
         return res.redirect('/map');
       });
     } else {
-      req.flash('error', { msg: 'You must be signed in to vote.' });
+      req.flash('error', { msg: '您必须登录才能投票.' });
       res.redirect('/map');
     }
   }
@@ -576,11 +576,11 @@ module.exports = function(app) {
       req.user.save(function(err) {
         if (err) { return next(err); }
 
-        req.flash('success', { msg: 'Thanks for voting!' });
+        req.flash('success', { msg: '感谢您的投票!' });
         return res.redirect('/map');
       });
     } else {
-      req.flash('error', {msg: 'You must be signed in to vote.'});
+      req.flash('error', {msg: '您必须登录才能投票.'});
       res.redirect('/map');
     }
   }

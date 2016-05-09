@@ -60,6 +60,7 @@ export default function csp() {
         '*.twitter.com'
       ].concat(trusted),
       frameSrc: [
+        '*.zhongyi06.com',
         '*.gitter.im',
         '*.gitter.im https:',
         '*.vimeo.com',

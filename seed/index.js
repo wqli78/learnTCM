@@ -1,7 +1,9 @@
 /* eslint-disable no-process-exit */
 require('babel-register');
 require('dotenv').load();
+
 var adler32 = require('adler32');
+var tr = require('transliteration');
 
 var Rx = require('rx'),
     _ = require('lodash'),
@@ -34,7 +36,13 @@ destroy()
 
     var challenges = challengeSpec.challenges
       .map(function(challenge, index) {
-        challenge.name = challenge.title.replace(/[^a-zA-Z0-9\s]/g, '');
+
+
+        // challenge.name = tr(challenge.title); // Ni Hao ,Shi Jie
+        
+        // challenge.name = challenge.title.replace(/[^a-zA-Z0-9\s]/g, '');
+        //lwq改 标题为中文的时候，转换为拼音
+        challenge.name = tr(challenge.title).replace(/[^a-zA-Z0-9\s]/g, '');
 
         challenge.dashedName = challenge.name
           .toLowerCase()

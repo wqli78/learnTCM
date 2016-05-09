@@ -418,13 +418,13 @@ $(document).ready(function() {
   $('#accordion').on('show.bs.collapse', function(e) {
     expandCaret(e.target);
     if ($('a[data-toggle=collapse]').length === $('.fa-caret-down').length) {
-      mapShowAll.text('Collapse all challenges');
+      mapShowAll.text('收起全部课程');
       mapShowAll.addClass('active');
     }
   }).on('hide.bs.collapse', function(e) {
     collapseCaret(e.target);
     if ($('a[data-toggle=collapse]').length === $('.fa-caret-right').length) {
-      mapShowAll.text('Expand all challenges');
+      mapShowAll.text('展开全部课程');
       mapShowAll.removeClass('active');
     }
   });
@@ -436,13 +436,13 @@ $(document).ready(function() {
       function(i, div) {
         expandBlock(div);
       });
-      mapShowAll.text('Collapse all challenges');
+      mapShowAll.text('收起全部课程');
       return mapShowAll.addClass('active');
     } else {
       $.each($('.map-collapse.in'), function(i, div) {
         collapseBlock(div);
       });
-      mapShowAll.text('Expand all challenges');
+      mapShowAll.text('展开全部课程');
       return mapShowAll.removeClass('active');
     }
   });
@@ -450,11 +450,14 @@ $(document).ready(function() {
   // Map live filter
   mapFilter.on('keyup', () => {
     if (mapFilter.val().length > 0) {
-      var regex = new RegExp(mapFilter.val().replace(/ /g, '.'), 'i');
+      // var regex = new RegExp(mapFilter.val().replace(/ /g, '.'), 'i');
+      var regex = new RegExp(mapFilter.val().replace(/ /g, '.'));
 
       // Hide/unhide challenges that match the regex
       $('.challenge-title').each((index, title) => {
-        if (regex.test($(title).attr('name'))) {
+        var titleText = $(title).text();
+        // if (regex.test($(title).attr('name'))) {
+        if (regex.test(titleText)) {
           expandBlock($(title).closest('.chapterBlock'));
           expandBlock($(title).closest('.certBlock'));
           $(title).removeClass('hidden');

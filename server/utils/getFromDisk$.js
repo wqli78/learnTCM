@@ -2,6 +2,9 @@ import path from 'path';
 import { Observable } from 'rx';
 import adler32 from 'adler32';
 
+// import lwqtr from './lwq';
+var lwqtr = require('transliteration');
+
 const basePath = process.cwd() + '/seed/challenges/';
 
 export default function getFromDisk$(challenge) {
@@ -32,7 +35,7 @@ export default function getFromDisk$(challenge) {
       challenge.tail = challenge.tail || [];
       challenge.challengeType = '' + challenge.challengeType;
 
-      challenge.name = challenge.title.replace(/[^a-zA-Z0-9\s]/g, '');
+      challenge.name = lwqtr(challenge.title).replace(/[^a-zA-Z0-9\s]/g, '');
 
       challenge.dashedName = challenge.name
         .toLowerCase()

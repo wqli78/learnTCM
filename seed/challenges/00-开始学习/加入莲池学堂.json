@@ -1,23 +1,23 @@
 {
-  "name": "Join to Free Code Camp",
+  "name": "加入莲池学堂",
   "order": 1,
-  "time": "15 miniutes",
+  "time": "15 分钟",
   "helpRoom": "Help",
   "challenges": [
     {
       "id": "560add10cb82ac38a17513be",
-      "title": "Learn how Free Code Camp Works",
+      "title": "学习如何使用莲池学堂",
       "description": [
         [
-          "//i.imgur.com/6ibIavQ.jpg",
-          "A picture of Free Code Camp's 4 benefits: Get connected, Learn JavaScript, Build your Portfolio, Help nonprofits",
-          "欢迎来到Free Code Camp，我们是帮助你自学编程的开源社区。",
+          "//o6qnmyej5.bkt.clouddn.com/01-%E6%89%8B%E5%A4%AA%E9%98%B4%E8%82%BA%E7%BB%8F.jpg",
+          "手太阴肺经",
+          "起于中焦，向下联络大肠，回绕过来沿着胃的上口，通过横膈，属于肺脏，从“肺系”（肺与喉咙相联系的部位）横行出来（中府），向下沿上臂内侧，行于手少阴经和手厥阴经的前面，下行到肘窝中，沿着前臂内侧前缘，进入寸口，经过鱼际，沿着鱼际的边缘，出拇指内侧端（少商）。",
           ""
         ],
         [
-          "//i.imgur.com/Elb3dfj.jpg",
-          "A screenshot of some of our campers coding together in Toronto.",
-          "自学编程不是一件容易的事情。要想取得成功，需要大量的实践和互助。这就是为什么我们创建了一个严格的课程和互助团体。",
+          "//learn.zhongyi06.com/35033997.swf",
+          "足少阴肾经.",
+          "足少阴肾经通行路线",
           ""
         ],
         [
@@ -88,7 +88,7 @@
     },
     {
       "id": "560add37cb82ac38a17513bf",
-      "title": "Create a GitHub Account and Join our Chat Rooms",
+      "title": "创建一个学堂账号",
       "description": [
         [
           "//i.imgur.com/EAR7Lvh.jpg",
@@ -151,24 +151,8 @@
       "challengeType": 7
     },
     {
-      "id": "560add56cb82ac38a17513c0",
-      "title": "Configure your Code Portfolio",
-      "description": [
-        [
-          "//i.imgur.com/tP2ccTE.gif",
-          "A gif showing how you can click your profile image in your upper right hand corner to your code portfolio and connect GitHub.",
-          "点击右上角的头像，切换到代码记录区。你可以通过连接GitHub账户来同步你的代码提交。你的代码记录区显示了你的学习进度和获得了多少奖励积分。当你完成了挑战或者在聊天室帮助同学解答问题时，你会获得奖励积分。如果你连续一周都获得了积分，你会获得一条彩带。",
-          ""
-        ]
-      ],
-      "challengeSeed": [],
-      "tests": [],
-      "type": "Waypoint",
-      "challengeType": 7
-    },
-    {
       "id": "560add71cb82ac38a17513c2",
-      "title": "Join a Campsite in Your City",
+      "title": "加入一个本城市的社区",
       "description": [
         [
           "//i.imgur.com/XugIMb4.jpg",
@@ -187,64 +171,7 @@
       "tests": [],
       "type": "Waypoint",
       "challengeType": 7
-    },
-    {
-      "id": "560add8ccb82ac38a17513c4",
-      "title": "Learn What to Do If You Get Stuck",
-      "description": [
-        [
-          "//i.imgur.com/lzKvwU2.jpg",
-          "The text \"Coding is hard.\"",
-          "编程是个困难的事情，你总会遇到困惑。即使是有经验的高手也会困惑，关键点是他们懂得如何解决困惑。",
-          ""
-        ],
-        [
-          "//i.imgur.com/sfsidp6.jpg",
-          "The text \"It takes time to get good at coding.\"",
-          "要想成为编程高手需要花费大量的时间，你不可能学习象棋三个月就打败象棋大师，更不要期望学习编程三个月就可以构建下一个Facebook。",
-          ""
-        ],
-        [
-          "//i.imgur.com/EoTfOyC.jpg",
-          "An image of some of our campers coding together in Montreal.",
-          "每天坚持练习编程，和其他写代码的人一起交流，你将会成为一个准程序猿。",
-          ""
-        ],
-        [
-          "//i.imgur.com/EWWZBag.jpg",
-          "An image with the text \"1. Read the error 2. Search Google 3. Ask for help.",
-          "当你遇到困惑不知道该怎么办，永远记住:Read-Search-Ask。",
-          ""
-        ],
-        [
-          "//i.imgur.com/99BfAcK.jpg",
-          "An image showing jQuery documentation",
-          "首先，查阅文档或错误信息，优秀程序猿的一个关键技能就是能够理解并模仿。",
-          ""
-        ],
-        [
-          "//i.imgur.com/GxvrsFb.gif",
-          "A gif showing you how to do an advanced Google search. First, we enter the query \"jquery doesn't run when my page loads\". Then we click search tools button and change the \"Any time\" select box to \"within the last year\". Then we click on a result and read through the article and find our answer.",
-          "如果那不起作用，试试谷歌搜索。当你用谷歌搜索时，记得输入你正在用的语言或框架，你还可以限制返回结果的日期。",
-          ""
-        ],
-        [
-          "//i.imgur.com/LZYU7p2.gif",
-          "A gif showing us following the link below to go to the help chat room and ask \"jquery doesn't run when my page loads\".",
-          "如果还不起作用，可以问问你的朋友。如果你身边没有朋友，你可以在我们的聊天室问我们的营员。",
-          "https://gitter.im/FreeCodeCamp/Help"
-        ],
-        [
-          "//i.imgur.com/ZRgXraT.gif",
-          "A gif showing us scrolling through our challenge map.",
-          "现在你已经准备好开始编程之路了，请点击页面上面的\"学习路径\"开始挑战。我们会持续更新课程内容的，所以看到章节变化别感到奇怪，Keep Moving、永不止步！",
-          ""
-        ]
-      ],
-      "challengeSeed": [],
-      "tests": [],
-      "type": "Waypoint",
-      "challengeType": 7
     }
+    
   ]
 }

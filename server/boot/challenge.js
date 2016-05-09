@@ -169,18 +169,20 @@ function getRenderData$(user, challenge$, origChallengeName, solution) {
         });
       }
 
-      if (dasherize(challenge.name) !== origChallengeName) {
-        let redirectUrl = `/challenges/${dasherize(challenge.name)}`;
+      // lwq修改 ，此处造成汉字标题的关卡重定向
+      
+      // if (dasherize(challenge.name) !== origChallengeName) {
+      //   let redirectUrl = `/challenges/${dasherize(challenge.name)}`;
 
-        if (solution) {
-          redirectUrl += `?solution=${encodeURIComponent(solution)}`;
-        }
+      //   if (solution) {
+      //     redirectUrl += `?solution=${encodeURIComponent(solution)}`;
+      //   }
 
-        return Observable.just({
-          type: 'redirect',
-          redirectUrl
-        });
-      }
+      //   return Observable.just({
+      //     type: 'redirect',
+      //     redirectUrl
+      //   });
+      // }
 
       // save user does nothing if user does not exist
       return Observable.just({
@@ -240,6 +242,8 @@ function getSuperBlocks$(challenge$, challengeMap) {
       const isBeta = _.every(blockArray, 'isBeta');
       const isComingSoon = _.every(blockArray, 'isComingSoon');
       const isRequired = _.every(blockArray, 'isRequired');
+      
+      debug(blockArray);
 
       return {
         isBeta,
