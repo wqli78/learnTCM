@@ -644,6 +644,8 @@ module.exports = function(app) {
       updateData
     } = buildUserUpdate(req.user, completedChallenge.id, completedChallenge);
 
+    dubug(alreadyCompleted);
+
     return user.update$(updateData)
       .doOnNext(({ count }) => log('%s documents updated', count))
       .doOnNext(() => {

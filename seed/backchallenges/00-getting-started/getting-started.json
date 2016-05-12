@@ -1,0 +1,250 @@
+{
+  "name": "Join to Free Code Camp",
+  "order": 1,
+  "time": "15 miniutes",
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "560add10cb82ac38a17513be",
+      "title": "Learn how Free Code Camp Works",
+      "description": [
+        [
+          "//i.imgur.com/6ibIavQ.jpg",
+          "A picture of Free Code Camp's 4 benefits: Get connected, Learn JavaScript, Build your Portfolio, Help nonprofits",
+          "欢迎来到传统文化养生课堂。",
+          ""
+        ],
+        [
+          "//i.imgur.com/Elb3dfj.jpg",
+          "A screenshot of some of our campers coding together in Toronto.",
+          "自学编程不是一件容易的事情。要想取得成功，需要大量的实践和互助。这就是为什么我们创建了一个严格的课程和互助团体。",
+          ""
+        ],
+        [
+          "//i.imgur.com/D7Y5luw.jpg",
+          "A graph of the rate of job growth against growth in computer science degree graduates. There are 1.4 million jobs and only 400 thousand people to fill them.",
+          "每年都有成千上万的编程工作空缺着，对程序员的需求每年持续增长。",
+          ""
+        ],
+        [
+          "//i.imgur.com/WD3STY6.jpg",
+          "Photos of three campers who've gotten jobs after learning to code at Free Code Camp.",
+          "FreeCodeCamp是开启你的程序员生涯的最有效路径。事实上，没有人完成了整个课程，因为营员在毕业前一般都能找到工作。",
+          ""
+        ],
+        [
+          "//i.imgur.com/vLNso6h.jpg",
+          "An illustration showing that you will learn HTML5, CSS3, JavaScript, Databases, Git, Node.js, React and D3.",
+          "我们会通过几百个编程挑战来让你逐渐掌握这些Web开发技术。",
+          ""
+        ],
+        [
+          "//i.imgur.com/UVB9hxp.jpg",
+          "An image of a camper at a cafe building projects on Free Code Camp.",
+          "我们相信人类学习的最好方式就是实践，你会花费大量的时间来做项目。",
+          ""
+        ],
+        [
+          "//i.imgur.com/pbW7K5S.jpg",
+          "An image of showing our front end, back end, and data visualization certifications (400 hours each), our nonprofit projects (800 hours), and interview prep (80 hours) for a total of 2,080 hours of coding experience.",
+          "全部通过我们的课程挑战可以获得四个证书，这些证书非常受到企业的认可。前三个证书每个大约花费400个小时，最后一个证书将花费800个小时，我们推荐你按照顺序完成他们，当然你也可以自由跳跃。",
+          ""
+        ],
+        [
+          "//i.imgur.com/k8btNUB.jpg",
+          "A screenshot of our Front End Development Certificate",
+          "如果你用HTML+CSS+jQuery+JavaScript完成了10个项目，你就可以获得我们的前端开发证书。",
+          ""
+        ],
+        [
+          "//i.imgur.com/Et3iD74.jpg",
+          "A screenshot of our Data Visualization Certificate",
+          "如果你用React+Sass+D3.js完成了10个项目，你就可以获得我们的数据可视化证书。",
+          ""
+        ],
+        [
+          "//i.imgur.com/8v3t84p.jpg",
+          "A screenshot of our Back End Development Certificate",
+          "如果你用Node.js,+Express+MongoDB完成了10个项目，你就可以获得我们的后端开发证书，你还可以通过Git和Heroku把项目部署到云上，让所有人都可以访问。",
+          ""
+        ],
+        [
+          "//i.imgur.com/yXyxbDd.jpg",
+          "A screen shot of our nonprofit project directory.",
+          "当你完成了获得了前面三个证书后，你就可以和你的营员一起组队运用敏捷软件开发技术构建两个真实项目，同时你被要求给两个陈旧的项目添加功能。当你完成这些后，你就拥有了一个作品集，里面包含人们每天都在使用作品。",
+          ""
+        ],
+        [
+          "//i.imgur.com/PDGQ9ZM.jpg",
+          "An image of campers building projects together in a cafe in Seoul.",
+          "如果你完成了2080个小时的挑战和项目，你会获得我们的全栈开发证书。我们还给你提供了免费的代码面试练习和工作机会信息，满足你面试和找工作的需求。",
+          ""
+        ]
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },
+    {
+      "id": "560add37cb82ac38a17513bf",
+      "title": "Create a GitHub Account and Join our Chat Rooms",
+      "description": [
+        [
+          "//i.imgur.com/EAR7Lvh.jpg",
+          "A screenshot of our one of our Gitter chat rooms.",
+          "在我们开始编程前，让我们先加入FreeCodeCamp聊天室，你可以在这里闲逛、提问或者寻找营友一起结对编程，当然首先你得有一个GitHub账户。",
+          ""
+        ],
+        [
+          "//i.imgur.com/n6GeSEm.gif",
+          "A gif showing you to click the link below to go to GitHub. Fill in the necessary fields and click submit. Then check your email inbox for an email from GitHub so you can verify your account.",
+          "点击下方的按钮可以打开GitHub网站，通过填写表格来创建一个GitHub账户。确保你的邮箱是真实的，然后打开你的邮箱，找到最新的邮件，点击验证邮箱地址即可。 <br><div class=\"small\">提示：如果你已经有GitHub账户，请手动跳过这一步。</div>",
+          "https://github.com/join"
+        ],
+        [
+          "//i.imgur.com/hFqAEr8.gif",
+          "A gif showing you how to click the profile image in the upper right hand corner of GitHub. Upload a photo of yourself or you will continue to use the automatically generated pixel art. Then fill in the remaining form fields and click submit.",
+          "点击GitHub右上角的像素头像，然后选择设置。上传一张你自己的照片，最好是你最帅的照片，以便其他营员在聊天室一眼就认出你来，为了让更多人了解你，你还可以添加你所在的城市和你的姓名。",
+          "https://github.com/settings/profile"
+        ],
+        [
+          "//i.imgur.com/pYk0wOk.gif",
+          "A gif showing how you can star a GitHub repo.",
+          "打开FreeCodeCamp的开源仓库，这里是我们的志愿者一起协作搭建FreeCodeCamp的地方。你可以\"Star\"我们的仓库，\"star\"在GitHub的意思就是赞👍。",
+          "https://github.com/huluoyang/freecodecamp.cn"
+        ],
+        [
+          "//i.imgur.com/OmRmLB4.gif",
+          "A gif showing you how to click the link below to go to our chat room and click the \"sign in with GitHub\" button. Then you can click into the text input field and type a message to your fellow campers.",
+          "现在你已经有GitHub账户了，你可以通过登录GitHub来加入我们的聊天室。通过\"Hello World\"的方式向大家介绍你自己，你是如何发现FreeCodeCamp的，你为什么想要学编程。",
+          "https://gitter.im/FreeCodeCamp/chinese"
+        ],
+        [
+          "//i.imgur.com/Ecs5XAd.gif",
+          "A gif showing you how you can click the settings button in the upper right hand corner and modify your notification settings.",
+          "我们的聊天室非常活跃，你可以更改你的设置，这样只会在有人@你时才会提醒你。",
+          ""
+        ],
+        [
+          "//i.imgur.com/T0bGJPe.gif",
+          "A gif showing how you can click on a user profile image to initiate a private message with that user.",
+          "请记住所有的聊天室都是公开的，所以请你不要分享一些敏感信息，例如邮箱地址、手机号、QQ号，如果你想分享自己的个人信息给他人，请开小窗。",
+          ""
+        ],
+        [
+          "//i.imgur.com/vDTMJSh.gif",
+          "A gif showing that you can tab back and forth between challenges and our chat rooms.",
+          "在你通过我们的挑战的过程中，请保持聊天室常开。这样当你困惑了可以及时询问来获得帮助，还可以在休息时和其他营员聊聊天。",
+          ""
+        ],
+        [
+          "//i.imgur.com/WvQvNGN.gif",
+          "A gif showing how you can click the link below to download a native chat room app for your computer.",
+          "你还可以在电脑或者手机下载这个聊天室APP",
+          "https://gitter.im/apps"
+        ]
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },
+    {
+      "id": "560add56cb82ac38a17513c0",
+      "title": "Configure your Code Portfolio",
+      "description": [
+        [
+          "//i.imgur.com/tP2ccTE.gif",
+          "A gif showing how you can click your profile image in your upper right hand corner to your code portfolio and connect GitHub.",
+          "点击右上角的头像，切换到代码记录区。你可以通过连接GitHub账户来同步你的代码提交。你的代码记录区显示了你的学习进度和获得了多少奖励积分。当你完成了挑战或者在聊天室帮助同学解答问题时，你会获得奖励积分。如果你连续一周都获得了积分，你会获得一条彩带。",
+          ""
+        ]
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },
+    {
+      "id": "560add71cb82ac38a17513c2",
+      "title": "Join a Campsite in Your City",
+      "description": [
+        [
+          "//i.imgur.com/XugIMb4.jpg",
+          "A picture of some of our campers meeting in a local cafe.",
+          "我们的营地是Facebook群组，它可以帮助你遇到和你同一个城市的营员。你可以用这些群组去策划或者参加“coffee code”活动，在那里你会遇到更多的营员，他们经常一边喝咖啡，一边写代码。",
+          ""
+        ],
+        [
+          "//i.imgur.com/fTFMjwf.gif",
+          "A gif showing how you can click the link below, find your city on the list of Campsites, then click on the Facebook link for your city and join your city's Facebook group.",
+          "在这个列表找到你的城市，然后点击它，这样就这些跳转到你所在城市的Facebook群组，点击\"Join group\"按钮申请加入，很快就有人批准你通过。如果你的城市不在这个列表，滑到页面的最下面，按照Wiki的提示来创建自己城市的营地。",
+          "https://github.com/FreeCodeCamp/freecodecamp/wiki/List-of-Free-Code-Camp-city-based-Campsites"
+        ]
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },
+    {
+      "id": "560add8ccb82ac38a17513c4",
+      "title": "Learn What to Do If You Get Stuck",
+      "description": [
+        [
+          "//i.imgur.com/lzKvwU2.jpg",
+          "The text \"Coding is hard.\"",
+          "编程是个困难的事情，你总会遇到困惑。即使是有经验的高手也会困惑，关键点是他们懂得如何解决困惑。",
+          ""
+        ],
+        [
+          "//i.imgur.com/sfsidp6.jpg",
+          "The text \"It takes time to get good at coding.\"",
+          "要想成为编程高手需要花费大量的时间，你不可能学习象棋三个月就打败象棋大师，更不要期望学习编程三个月就可以构建下一个Facebook。",
+          ""
+        ],
+        [
+          "//i.imgur.com/EoTfOyC.jpg",
+          "An image of some of our campers coding together in Montreal.",
+          "每天坚持练习编程，和其他写代码的人一起交流，你将会成为一个准程序猿。",
+          ""
+        ],
+        [
+          "//i.imgur.com/EWWZBag.jpg",
+          "An image with the text \"1. Read the error 2. Search Google 3. Ask for help.",
+          "当你遇到困惑不知道该怎么办，永远记住:Read-Search-Ask。",
+          ""
+        ],
+        [
+          "//i.imgur.com/99BfAcK.jpg",
+          "An image showing jQuery documentation",
+          "首先，查阅文档或错误信息，优秀程序猿的一个关键技能就是能够理解并模仿。",
+          ""
+        ],
+        [
+          "//i.imgur.com/GxvrsFb.gif",
+          "A gif showing you how to do an advanced Google search. First, we enter the query \"jquery doesn't run when my page loads\". Then we click search tools button and change the \"Any time\" select box to \"within the last year\". Then we click on a result and read through the article and find our answer.",
+          "如果那不起作用，试试谷歌搜索。当你用谷歌搜索时，记得输入你正在用的语言或框架，你还可以限制返回结果的日期。",
+          ""
+        ],
+        [
+          "//i.imgur.com/LZYU7p2.gif",
+          "A gif showing us following the link below to go to the help chat room and ask \"jquery doesn't run when my page loads\".",
+          "如果还不起作用，可以问问你的朋友。如果你身边没有朋友，你可以在我们的聊天室问我们的营员。",
+          "https://gitter.im/FreeCodeCamp/Help"
+        ],
+        [
+          "//i.imgur.com/ZRgXraT.gif",
+          "A gif showing us scrolling through our challenge map.",
+          "现在你已经准备好开始编程之路了，请点击页面上面的\"学习路径\"开始挑战。我们会持续更新课程内容的，所以看到章节变化别感到奇怪，Keep Moving、永不止步！",
+          ""
+        ]
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    }
+  ]
+}

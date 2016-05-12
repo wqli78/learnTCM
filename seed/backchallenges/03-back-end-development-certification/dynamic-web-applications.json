@@ -1,0 +1,126 @@
+{
+  "name": "Dynamic Web Application Projects",
+  "order": 27,
+  "time": "250 hours",
+  "helpRoom": "HelpBackEnd",
+  "challenges": [
+    {
+      "id": "bd7158d8c443eddfaeb5bdef",
+      "title": "Build a Voting App",
+      "description": [
+        "<strong>Objective:</strong> Build a full stack JavaScript app that is functionally similar to this: <a href='https://fcc-voting-arthow4n.herokuapp.com/' target='_blank'>https://fcc-voting-arthow4n.herokuapp.com/</a> and deploy it to Heroku.",
+        "Note that for each project, you should create a new GitHub repository and a new Heroku project. If you can't remember how to do this, revisit <a href='/challenges/get-set-for-our-back-end-development-projects'>http://freecodecamp.com/challenges/get-set-for-our-back-end-development-projects</a>.",
+        "Here are the specific user stories you should implement for this project:",
+        "<strong>User Story:</strong> As an authenticated user, I can keep my polls and come back later to access them.",
+        "<strong>User Story:</strong> As an authenticated user, I can share my polls with my friends.",
+        "<strong>User Story:</strong> As an authenticated user, I can see the aggregate results of my polls.",
+        "<strong>User Story:</strong> As an authenticated user, I can delete polls that I decide I don't want anymore.",
+        "<strong>User Story:</strong> As an authenticated user, I can create a poll with any number of possible items.",
+        "<strong>User Story:</strong> As an unauthenticated or authenticated user, I can see and vote on everyone's polls.",
+        "<strong>User Story:</strong> As an unauthenticated or authenticated user, I can see the results of polls in chart form. (This could be implemented using Chart.js or Google Charts.)",
+        "<strong>User Story:</strong> As an authenticated user, if I don't like the options on a poll, I can create a new option.",
+        "Once you've finished implementing these user stories, click the \"I've completed this challenge\" button and enter the URLs for both your GitHub repository and your live app running on Heroku.",
+        "You can get feedback on your project from fellow campers by sharing it in our <a href='//gitter.im/freecodecamp/codereview' target='_blank'>Code Review Chatroom</a>. You can also share it on Twitter and your city's Campsite (on Facebook)."
+      ],
+      "challengeSeed": [
+        "133315786"
+      ],
+      "tests": [],
+      "type": "basejump",
+      "challengeType": 4,
+      "isRequired": true
+    },
+    {
+      "id": "bd7158d8c443eddfaeb5bdff",
+      "title": "Build a Nightlife Coordination App",
+      "description": [
+        "<strong>Objective:</strong> Build a full stack JavaScript app that is functionally similar to this: <a href='http://whatsgoinontonight.herokuapp.com/' target='_blank'>http://whatsgoinontonight.herokuapp.com/</a> and deploy it to Heroku.",
+        "Note that for each project, you should create a new GitHub repository and a new Heroku project. If you can't remember how to do this, revisit <a href='/challenges/get-set-for-our-back-end-development-projects'>http://freecodecamp.com/challenges/get-set-for-our-back-end-development-projects</a>.",
+        "Here are the specific user stories you should implement for this project:",
+        "<strong>User Story:</strong> As an unauthenticated user, I can view all bars in my area.",
+        "<strong>User Story:</strong> As an authenticated user, I can add myself to a bar to indicate I am going there tonight.",
+        "<strong>User Story:</strong> As an authenticated user, I can remove myself from a bar if I no longer want to go there.",
+        "<strong>User Story:</strong> As an unauthenticated user, when I login I should not have to search again.",
+        "<strong>Hint:</strong> Try using the <a href='https://www.yelp.com/developers/documentation/v2/overview' target='_blank'>Yelp API</a> to find venues in the cities your users search for. If you use Yelp's API, be sure to mention so in your app.",
+        "Once you've finished implementing these user stories, click the \"I've completed this challenge\" button and enter the URLs for both your GitHub repository and your live app running on Heroku.",
+        "You can get feedback on your project from fellow campers by sharing it in our <a href='//gitter.im/freecodecamp/codereview' target='_blank'>Code Review Chatroom</a>. You can also share it on Twitter and your city's Campsite (on Facebook)."
+      ],
+      "challengeSeed": [
+        "133315781"
+      ],
+      "tests": [],
+      "type": "basejump",
+      "challengeType": 4,
+      "isRequired": true
+    },
+    {
+      "id": "bd7158d8c443eddfaeb5bd0e",
+      "title": "Chart the Stock Market",
+      "description": [
+        "<strong>Objective:</strong> Build a full stack JavaScript app that is functionally similar to this: <a href='http://watchstocks.herokuapp.com/' target='_blank'>http://watchstocks.herokuapp.com/</a> and deploy it to Heroku.",
+        "Note that for each project, you should create a new GitHub repository and a new Heroku project. If you can't remember how to do this, revisit <a href='/challenges/get-set-for-our-back-end-development-projects'>http://freecodecamp.com/challenges/get-set-for-our-back-end-development-projects</a>.",
+        "Here are the specific user stories you should implement for this project:",
+        "<strong>User Story:</strong> I can view a graph displaying the recent trend lines for each added stock.",
+        "<strong>User Story:</strong> I can add new stocks by their symbol name.",
+        "<strong>User Story:</strong> I can remove stocks.",
+        "<strong>User Story:</strong> I can see changes in real-time when any other user adds or removes a stock. For this you will need to use Web Sockets.",
+        "Once you've finished implementing these user stories, click the \"I've completed this challenge\" button and enter the URLs for both your GitHub repository and your live app running on Heroku.",
+        "You can get feedback on your project from fellow campers by sharing it in our <a href='//gitter.im/freecodecamp/codereview' target='_blank'>Code Review Chatroom</a>. You can also share it on Twitter and your city's Campsite (on Facebook)."
+      ],
+      "challengeSeed": [
+        "133315787"
+      ],
+      "tests": [],
+      "type": "basejump",
+      "challengeType": 4,
+      "isRequired": true
+    },
+    {
+      "id": "bd7158d8c443eddfaeb5bd0f",
+      "title": "Manage a Book Trading Club",
+      "description": [
+        "<strong>Objective:</strong> Build a full stack JavaScript app that is functionally similar to this: <a href='http://bookjump.herokuapp.com/' target='_blank'>http://bookjump.herokuapp.com/</a> and deploy it to Heroku.",
+        "Note that for each project, you should create a new GitHub repository and a new Heroku project. If you can't remember how to do this, revisit <a href='/challenges/get-set-for-our-back-end-development-projects'>http://freecodecamp.com/challenges/get-set-for-our-back-end-development-projects</a>.",
+        "Here are the specific user stories you should implement for this project:",
+        "<strong>User Story:</strong> I can view all books posted by every user.",
+        "<strong>User Story:</strong> I can add a new book.",
+        "<strong>User Story:</strong> I can update my settings to store my full name, city, and state.",
+        "<strong>User Story:</strong> I can propose a trade and wait for the other user to accept the trade.",
+        "Once you've finished implementing these user stories, click the \"I've completed this challenge\" button and enter the URLs for both your GitHub repository and your live app running on Heroku.",
+        "You can get feedback on your project from fellow campers by sharing it in our <a href='//gitter.im/freecodecamp/codereview' target='_blank'>Code Review Chatroom</a>. You can also share it on Twitter and your city's Campsite (on Facebook)."
+      ],
+      "challengeSeed": [
+        "133316032"
+      ],
+      "tests": [],
+      "type": "basejump",
+      "challengeType": 4,
+      "isRequired": true
+    },
+    {
+      "id": "bd7158d8c443eddfaeb5bdee",
+      "title": "Build a Pinterest Clone",
+      "description": [
+        "<strong>Objective:</strong> Build a full stack JavaScript app that is functionally similar to this: <a href='http://pintech.herokuapp.com/' target='_blank'>http://pintech.herokuapp.com/</a> and deploy it to Heroku.",
+        "Note that for each project, you should create a new GitHub repository and a new Heroku project. If you can't remember how to do this, revisit <a href='/challenges/get-set-for-our-back-end-development-projects'>http://freecodecamp.com/challenges/get-set-for-our-back-end-development-projects</a>.",
+        "Here are the specific user stories you should implement for this project:",
+        "<strong>User Story:</strong> As an unauthenticated user, I can login with Twitter.",
+        "<strong>User Story:</strong> As an authenticated user, I can link to images.",
+        "<strong>User Story:</strong> As an authenticated user, I can delete images that I've linked to.",
+        "<strong>User Story:</strong> As an authenticated user, I can see a Pinterest-style wall of all the images I've linked to.",
+        "<strong>User Story:</strong> As an unauthenticated user, I can browse other users' walls of images.",
+        "<strong>User Story:</strong> As an authenticated user, if I upload an image that is broken, it will be replaced by a placeholder image. (can use jQuery broken image detection)",
+        "<strong>Hint:</strong> <a href='http://masonry.desandro.com/' target='_blank'>Masonry.js</a> is a library that allows for Pinterest-style image grids.",
+        "Once you've finished implementing these user stories, click the \"I've completed this challenge\" button and enter the URLs for both your GitHub repository and your live app running on Heroku.",
+        "You can get feedback on your project from fellow campers by sharing it in our <a href='//gitter.im/freecodecamp/codereview' target='_blank'>Code Review Chatroom</a>. You can also share it on Twitter and your city's Campsite (on Facebook)."
+      ],
+      "challengeSeed": [
+        "133315784"
+      ],
+      "tests": [],
+      "type": "basejump",
+      "challengeType": 4,
+      "isRequired": true
+    }
+  ]
+}
