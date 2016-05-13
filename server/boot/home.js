@@ -1,7 +1,7 @@
 import { defaultProfileImage } from '../../common/utils/constantStrings.json';
 
 const message =
-  'Learn to Code and Help Nonprofits';
+  '免费学习传统文化';
 
 module.exports = function(app) {
   var router = app.loopback.Router();
