@@ -14,6 +14,8 @@ export default function getFromDisk$(challenge) {
       Did you remember run node seed?`
     );
   }
+  
+  //删除模块cache中的对应模块，可以实现动态加载
   delete require.cache[require.resolve(
     path.join(basePath, challenge.fileName)
   )];

@@ -211,9 +211,32 @@ function getRenderData$(user, challenge$, origChallengeName, solution) {
     });
 }
 
+
+//lwq修改 实时获得目录的变化
+   function lwqGetAllChallenge(findChallenge$,challengesQuery) {
+      return findChallenge$(challengesQuery)
+        .flatMap(challenges => Observable.from( 
+          challenges,
+          null,
+          null,
+          Scheduler.default
+        ));               
+    }
+
+
 // create a stream of an array of all the challenge blocks
-function getSuperBlocks$(challenge$, challengeMap) {
-  return challenge$
+function getSuperBlocks$(challenge$, challengeMap,findChallenge$,challengesQuery) {
+  
+  //lwq改 让课程目录在开发状态下可以实时更新
+  let lwqAllChallenges;
+  if (isDev) {
+    lwqAllChallenges = lwqGetAllChallenge(findChallenge$,challengesQuery);
+  }else{
+    lwqAllChallenges = challenge$;
+  }
+  
+  
+  return lwqAllChallenges
     // mark challenge completed
     .map(challengeModel => {
       const challenge = challengeModel.toJSON();
@@ -356,7 +379,7 @@ module.exports = function(app) {
   const findChallenge$ = observeMethod(Challenge, 'find');
   // create a stream of all the challenges
   const challenge$ = findChallenge$(challengesQuery)
-    .flatMap(challenges => Observable.from(
+    .flatMap(challenges => Observable.from( 
       challenges,
       null,
       null,
@@ -366,6 +389,7 @@ module.exports = function(app) {
     // except in development or beta site
     .filter(challenge => isDev || isBeta || !challenge.isBeta)
     .shareReplay();
+    
 
   // create a stream of challenge blocks
   const blocks$ = challenge$
@@ -665,16 +689,19 @@ module.exports = function(app) {
   function showMap(showAside, { user = {} }, res, next) {
     const { challengeMap = {} } = user;
 
-    return getSuperBlocks$(challenge$, challengeMap)
+    return getSuperBlocks$(challenge$, challengeMap,findChallenge$,challengesQuery)
       .subscribe(
         superBlocks => {
           res.render('map/show', {
             superBlocks,
-            title: 'A Map to Learn to Code and Become a Software Engineer',
+            title: '莲池学堂目录',
             showAside
           });
         },
         next
       );
   }
+  
+  
+  
 };

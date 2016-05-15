@@ -1,0 +1,78 @@
+{
+  "name": "Basic Front End Development Projects",
+  "order": 5.5,
+  "time": "50 hours",
+  "helpRoom": "HelpFrontEnd",
+  "challenges": [
+    {
+      "id": "bd7158d8c442eddfbeb5bd1f",
+      "title": "Get Set for our Front End Development Projects",
+      "description": [
+        [
+          "//i.imgur.com/OAD6SJz.png",
+          "An image of a Simon game, one our front end projects.",
+          "我们的前端开发项目将会使用一个叫CodePen的在线编辑器来应用你所学到的前端开发技能。",
+          ""
+        ],
+        [
+          "//i.imgur.com/WBetuBa.jpg",
+          "A programmer punching through his laptop screen in frustration.",
+          "这些项目都是有点难度的，每个项目都会花费好几天时间来完成，你会受到挫败，但别放弃，边学边练会容易一些。",
+          ""
+        ],
+        [
+          "//i.imgur.com/p2TpOQd.jpg",
+          "A cute dog jumping over a hurdle and winking and pointing his paw at you.",
+          "当你完成不了挑战的时候，记得使用“Read-Search-Ask”大法。<br>别担心，没啥难的。",
+          ""
+        ],
+        [
+          "//i.imgur.com/G1saeDt.gif",
+          "A gif showing how to create a Codepen account.",
+          "为了完成我们的前端项目挑战，我们会使用一个叫CodePen的在线编辑器，点击下面的链接可以注册一个CodePen账户，如果你已经有CodePen账户可以忽略。",
+          "http://codepen.io/signup/free"
+        ],
+        [
+          "//i.imgur.com/U4y9RJ1.gif",
+          "A gif showing that you can type \"hello world\" will output \"hello world\" in the preview window. You can also drag windows to resize them, and change their orientation.",
+          "在HTML里，创建一个文本为\"Hello World\"的h1元素，你可以拖拽元素的框架来调整它的大小，你还可以点击\"Change View\"按钮来改变框架的方向。",
+          ""
+        ],
+        [
+          "//i.imgur.com/G9KFQDL.gif",
+          "A gif showing the process of adding Bootstrap to your pen.",
+          "点击CSS盒子左上角的齿轮图标，然后向下滚动到\"Quick add\"，选择Bootstrap。现在给你的h1元素添加一个class=\"text-primary\"，它可以更改元素的颜色并且证明Bootstrap生效了。",
+          ""
+        ]
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "isRequired": false,
+      "challengeType": 7
+    },
+    {
+      "id": "bd7158d8c442eddfaeb5bd18",
+      "title": "Build a Tribute Page",
+      "description": [
+        "致橡树",
+        "<strong>目标:</strong> 设计一个类似于: <a href='https://codepen.io/FreeCodeCamp/full/NNvBQW/' target='_blank'>http://codepen.io/FreeCodeCamp/full/wMQrXV</a>的页面。",
+        "<strong>规则#1:</strong> 不要看示例中项目的代码，自己独立完成这个项目。",
+        "<strong>规则#2:</strong> 实现下方的用户故事，用你喜爱的任何库来定制属于你自己的风格。",
+        "<strong>用户故事:</strong> 我可以图片和文本来实现这个致敬页面。",
+        "<strong>用户故事:</strong> 我可以点击链接穿越到另一个网站，获得关于这个主题的更多信息。",
+        "当你完成不了挑战的时候，记得开大招'Read-Search-Ask'。",
+        "当你完成了这个项目，请点击 \"I've completed this challenge\" 按钮，输入你的项目在CodePen上的链接。",
+        "你可以通过分享这个项目给你的营友或<a href='//gitter.im/freecodecamp/chinese' target='_blank'>聊天室</a>来获得反馈。"
+      ],
+      "releasedOn": "January 1, 2016",
+      "challengeSeed": [
+        "154927651"
+      ],
+      "tests": [],
+      "type": "zipline",
+      "isRequired": true,
+      "challengeType": 3
+    }
+  ]
+}
