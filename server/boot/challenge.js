@@ -529,7 +529,18 @@ module.exports = function(app) {
     const solution = req.query.solution;
     const challengeName = req.params.challengeName.replace(challengesRegex, '');
 
-    getRenderData$(req.user, challenge$, challengeName, solution)
+
+ 
+  //lwq改 让新增课程内容在开发状态下可以实时查看
+  let lwqAllChallenges;
+  if (isDev) {
+    lwqAllChallenges = lwqGetAllChallenge(findChallenge$,challengesQuery);
+  }else{
+    lwqAllChallenges = challenge$;
+  }
+
+
+    getRenderData$(req.user, lwqAllChallenges, challengeName, solution)
       .subscribe(
         ({ type, redirectUrl, message, data }) => {
           if (message) {

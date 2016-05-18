@@ -53,7 +53,7 @@ function handleAnswer(getState, dispatch, next, action) {
   if (answer !== finalAnswer) {
     if (info) {
       dispatch(makeToast({
-        title: 'Hint',
+        title: '提示',
         message: info,
         type: 'info'
       }));

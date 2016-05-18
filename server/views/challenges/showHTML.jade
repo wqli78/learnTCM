@@ -10,7 +10,7 @@ block content
                 .innerMarginFix(style = "width: 99%;")
                     .row
                         .col-xs-12
-                            h4.text-center.challenge-instructions-title= name
+                            h4.text-center.challenge-instructions-title= title
                                 if (isCompleted)
                                     | &nbsp;
                                     i.ion-checkmark-circled.text-primary(title="Completed")
@@ -24,14 +24,14 @@ block content
                                 .negative-bottom-margin-30
                     .button-spacer
                     .btn-big.btn.btn-primary.btn-block#submitButton
-                        | Run tests (ctrl + enter)
+                        | 进行测验 (ctrl + enter)
                     .button-spacer
                     .btn-group.input-group.btn-group-justified
-                        label.btn.btn-primary.btn-primary-ghost.btn-lg#trigger-reset-modal Reset
+                        label.btn.btn-primary.btn-primary-ghost.btn-lg#trigger-reset-modal 重置
                         label.btn.btn-primary.btn-primary-ghost.hidden-sm.hidden-md.hidden-lg
-                            a(href='//gitter.im/freecodecamp/help') Help
-                        label.btn.btn-primary.btn-primary-ghost.hidden-xs.btn-lg#challenge-help-btn Help
-                        label.btn.btn-primary.btn-primary-ghost.btn-lg#trigger-issue-modal Bug
+                            a(href='//gitter.im/freecodecamp/help') 帮助
+                        label.btn.btn-primary.btn-primary-ghost.hidden-xs.btn-lg#challenge-help-btn 帮助
+                        label.btn.btn-primary.btn-primary-ghost.btn-lg#trigger-issue-modal 建议
                     script.
                         var userLoggedIn = true;
                     if (!user)

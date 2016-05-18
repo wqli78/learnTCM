@@ -5,7 +5,7 @@ block content
         var challengeName = 'Profile View';
     if (user && user.username === username)
       .row
-        if (!user.isGithubCool)
+        if (user.isGithubCool)
           a.btn.btn-lg.btn-block.btn-github.btn-link-social(href='/link/github')
               i.fa.fa-github
               | 链接GitHub开启作品集
@@ -13,7 +13,7 @@ block content
             a.btn.btn-lg.btn-block.btn-primary.btn-link-social(href='/settings')
                 | 更新设置
         .spacer
-    h1.text-center #{username}的编码作品集
+    h1.text-center #{username}的学习记录
     hr
     .row
         .col-xs-12.col-sm-10.col-sm-offset-1.col-md-8.col-md-offset-2.text-center
@@ -37,13 +37,13 @@ block content
             .row
                 .col-xs-12.col-sm-10.col-sm-offset-1.col-md-8.col-md-offset-2
                     if isFrontEndCert
-                        a.btn.btn-primary.btn-block(href='/' + username + '/front-end-certification') 查看我的前端开发认证
+                        a.btn.btn-primary.btn-block(href='/' + username + '/front-end-certification') 查看我的初级中医知识认证
                     if isDataVisCert
                         .button-spacer
-                        a.btn.btn-primary.btn-block(href='/' + username + '/data-visualization-certification') 查看我的数据可视化认证
+                        a.btn.btn-primary.btn-block(href='/' + username + '/data-visualization-certification') 查看我的中级中医知识认证
                     if isBackEndCert
                         .button-spacer
-                        a.btn.btn-primary.btn-block(href='/' + username + '/back-end-certification') 查看我的后端开发认证
+                        a.btn.btn-primary.btn-block(href='/' + username + '/back-end-certification') 查看我的高级中医知识 认证
 
     .spacer
     .col-md-12
@@ -95,54 +95,54 @@ block content
 
           if (user && user.username == username || !isLocked)
               if (projects .length > 0)
-                  .col-sm-12
-                      table.table.table-striped
-                          thead
-                              tr
-                                  th.col-xs-5 Projects
-                                  th.col-xs-2.hidden-xs Completed
-                                  th.col-xs-2.hidden-xs Last Updated
-                                  th.col-xs-2.hidden-xs Link
-                          for challenge in projects
-                              tr
-                                  td.col-xs-5.hidden-xs
-                                      a(href='/challenges/' + removeOldTerms(challenge.name), target='_blank')= removeOldTerms(challenge.name)
-                                  td.col-xs-2.hidden-xs= challenge.completedDate ? challenge.completedDate : 'Not Available'
-                                  td.col-xs-2.hidden-xs= challenge.lastUpdated ? challenge.lastUpdated : ''
-                                  td.col-xs-2.hidden-xs
-                                      a(href=challenge.solution, target='_blank') View my project
-                                  td.col-xs-12.visible-xs
-                                      a(href=challenge.solution, target='_blank')= removeOldTerms(challenge.name)
+                //   .col-sm-12
+                //       table.table.table-striped
+                //           thead
+                //               tr
+                //                   th.col-xs-5 Projects
+                //                   th.col-xs-2.hidden-xs 已完成
+                //                   th.col-xs-2.hidden-xs Last Updated
+                //                   th.col-xs-2.hidden-xs Link
+                //           for challenge in projects
+                //               tr
+                //                   td.col-xs-5.hidden-xs
+                //                       a(href='/challenges/' + removeOldTerms(challenge.name), target='_blank')= removeOldTerms(challenge.name)
+                //                   td.col-xs-2.hidden-xs= challenge.completedDate ? challenge.completedDate : 'Not Available'
+                //                   td.col-xs-2.hidden-xs= challenge.lastUpdated ? challenge.lastUpdated : ''
+                //                   td.col-xs-2.hidden-xs
+                //                       a(href=challenge.solution, target='_blank') View my project
+                //                   td.col-xs-12.visible-xs
+                //                       a(href=challenge.solution, target='_blank')= removeOldTerms(challenge.name)
               if (algorithms.length > 0)
-                  .col-sm-12
-                      table.table.table-striped
-                          thead
-                              tr
-                                  th.col-xs-5 算法
-                                  th.col-xs-2.hidden-xs 完成
-                                  th.col-xs-2.hidden-xs 最后更新
-                                  th.col-xs-2.hidden-xs 解决方案
-                          for challenge in algorithms
-                              tr
-                                  td.col-xs-5.hidden-xs= removeOldTerms(challenge.name)
-                                  td.col-xs-2.hidden-xs= challenge.completedDate ? challenge.completedDate : 'Not Available'
-                                  td.col-xs-2.hidden-xs= challenge.lastUpdated ? challenge.lastUpdated : ''
-                                  td.col-xs-2.hidden-xs
-                                    if (challenge.solution)
-                                        a(href='/challenges/' + removeOldTerms(challenge.name) + '?solution=' + encodeURIComponent(encodeFcc(challenge.solution)), target='_blank') View solution
-                                    else
-                                        a(href='/challenges/' + removeOldTerms(challenge.name)) View this challenge
-                                  td.col-xs-12.visible-xs
-                                    if (challenge.solution)
-                                        a(href='/challenges/' + removeOldTerms(challenge.name) + '?solution=' + encodeURIComponent(encodeFcc(challenge.solution)), target='_blank')= removeOldTerms(challenge.name)
-                                    else
-                                        a(href='/challenges/' + removeOldTerms(challenge.name))= removeOldTerms(challenge.name)
+                //   .col-sm-12
+                //       table.table.table-striped
+                //           thead
+                //               tr
+                //                   th.col-xs-5 算法
+                //                   th.col-xs-2.hidden-xs 完成
+                //                   th.col-xs-2.hidden-xs 最后更新
+                //                   th.col-xs-2.hidden-xs 解决方案
+                //           for challenge in algorithms
+                //               tr
+                //                   td.col-xs-5.hidden-xs= removeOldTerms(challenge.name)
+                //                   td.col-xs-2.hidden-xs= challenge.completedDate ? challenge.completedDate : 'Not Available'
+                //                   td.col-xs-2.hidden-xs= challenge.lastUpdated ? challenge.lastUpdated : ''
+                //                   td.col-xs-2.hidden-xs
+                //                     if (challenge.solution)
+                //                         a(href='/challenges/' + removeOldTerms(challenge.name) + '?solution=' + encodeURIComponent(encodeFcc(challenge.solution)), target='_blank') View solution
+                //                     else
+                //                         a(href='/challenges/' + removeOldTerms(challenge.name)) View this challenge
+                //                   td.col-xs-12.visible-xs
+                //                     if (challenge.solution)
+                //                         a(href='/challenges/' + removeOldTerms(challenge.name) + '?solution=' + encodeURIComponent(encodeFcc(challenge.solution)), target='_blank')= removeOldTerms(challenge.name)
+                //                     else
+                //                         a(href='/challenges/' + removeOldTerms(challenge.name))= removeOldTerms(challenge.name)
               if (challenges.length > 0)
                   .col-sm-12
                       table.table.table-striped
                           thead
                               tr
-                                  th.col-xs-5 挑战
+                                  th.col-xs-5 课程
                                   th.col-xs-2.hidden-xs 完成
                                   th.col-xs-2.hidden-xs 最后更新
                                   th.col-xs-2.hidden-xs 解决方案
@@ -153,9 +153,9 @@ block content
                                   td.col-xs-2.hidden-xs= challenge.lastUpdated ? challenge.lastUpdated : ''
                                   td.col-xs-2.hidden-xs
                                     if (challenge.solution)
-                                        a(href='/challenges/' + removeOldTerms(challenge.name) + '?solution=' + encodeURIComponent(encodeFcc(challenge.solution)), target='_blank') View solution
+                                        a(href='/challenges/' + removeOldTerms(challenge.name) + '?solution=' + encodeURIComponent(encodeFcc(challenge.solution)), target='_blank') 查看方案
                                     else
-                                        a(href='/challenges/' + removeOldTerms(challenge.name)) View this challenge
+                                        a(href='/challenges/' + removeOldTerms(challenge.name)) 查看
                                   td.col-xs-12.visible-xs
                                     if (challenge.solution)
                                         a(href='/challenges/' + removeOldTerms(challenge.name) + '?solution=' + encodeURIComponent(encodeFcc(challenge.solution)), target='_blank')= removeOldTerms(challenge.name)

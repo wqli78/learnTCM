@@ -43,45 +43,19 @@
       "id": "bad87fee1348bd9acdd08826",
       "title": "阴阳测试",
       "description": [
-        "现在让我们开始学习最流行的JavaScript工具jQuery吧.不用担心JavaScript本身-我们马上会提到他.",
-        "在开始学习使用jQuery之前,我们需要加一些代码到HTML文件中.",
-        "首先在页面顶端增加一行<code>脚本</code>元素.注意要写上结束符.",
-        "浏览器会在<code>脚本</code> 里运行所有的Javascript,包括jQuery.",
-        "在你的<code>脚本</code> 元素里面,在你的 <code>脚本里</code>增加这行代码:<code>$(document).ready(function() {</code> . 然后用下面这段 <code>});</code>结束 (还是写在你的 <code>脚本</code> 元素里)",
-        "下来我们会来更多的来学习如何写<code>方法</code>.你放在<code>方法</code>里面的代码会被浏览器加载.",
-        "在没有<code>document ready function</code>以前,你的代码会在HTML没有渲染完成就执行,这样会产生bug."
+        "所有对阴阳理论的误解几乎都源于没有说明目的。",
+        "一旦明确了谈论的是哪个层次上的阴阳，完成了什么有意义的行为，阴阳理论就很容易理解。",
+        "请回答框中的问题，在括号中填写“是”或者“否”"
       ],
       "challengeSeed": [
+        "谈论阴阳必须明确完成哪种有意义的行为：",
         "",
-        "",
-        "<!-- Only change code above this line. -->",
-        "",
-        "<div class=\"container-fluid\">",
-        "  <h3 class=\"text-primary text-center\">jQuery Playground</h3>",
-        "  <div class=\"row\">",
-        "    <div class=\"col-xs-6\">",
-        "      <h4>#left-well</h4>",
-        "      <div class=\"well\" id=\"left-well\">",
-        "        <button class=\"btn btn-default target\" id=\"target1\">#target1</button>",
-        "        <button class=\"btn btn-default target\" id=\"target2\">#target2</button>",
-        "        <button class=\"btn btn-default target\" id=\"target3\">#target3</button>",
-        "      </div>",
-        "    </div>",
-        "    <div class=\"col-xs-6\">",
-        "      <h4>#right-well</h4>",
-        "      <div class=\"well\" id=\"right-well\">",
-        "        <button class=\"btn btn-default target\" id=\"target4\">#target4</button>",
-        "        <button class=\"btn btn-default target\" id=\"target5\">#target5</button>",
-        "        <button class=\"btn btn-default target\" id=\"target6\">#target6</button>",
-        "      </div>",
-        "    </div>",
-        "  </div>",
-        "</div>"
+        "答案：()"
+        
       ],
       "tests": [
-        "assert(code.match(/<\\/script\\s*>/g) && code.match(/<script(\\sasync|\\sdefer)*(\\s(charset|src|type)\\s*=\\s*[\"\\']+[^\"\\']*[\"\\']+)*(\\sasync|\\sdefer)*\\s*>/g) && code.match(/<\\/script\\s*>/g).length === code.match(/<script(\\sasync|\\sdefer)*(\\s(charset|src|type)\\s*=\\s*[\"\\']+[^\"\\']*[\"\\']+)*(\\sasync|\\sdefer)*\\s*>/g).length, 'message: 创建一个script标签，并且保证它是闭合的.');",
-        "assert(code.match(/\\$\\s*?\\(\\s*?document\\)\\.ready\\s*?\\(\\s*?function\\s*?\\(\\s*?\\)\\s*?\\{/g), 'message: You should add <code>$&#40;document&#41;.ready&#40;function&#40;&#41; {</code> to the beginning of your <code>script</code> element.');",
-        "assert(code.match(/\\n*?\\s*?\\}\\s*?\\);/g), 'message: Close your <code>$&#40;document&#41;.ready&#40;function&#40;&#41; {</code> function with <code>}&#41;;</code>');"
+
+        "assert(code.match(/是/), 'message: 应该填写是.');"
       ],
       "type": "waypoint",
       "challengeType": 0

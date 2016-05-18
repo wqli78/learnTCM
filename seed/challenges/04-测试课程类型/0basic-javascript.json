@@ -30,7 +30,8 @@
         "assert(code.match(/(\\*\\/)/g), 'message: Make sure that you close the comment with a <code>*/</code>.');"
       ],
       "type": "waypoint",
-      "challengeType": 1
+      "challengeType": 1,
+      "isBeta": true
     },
     
     {

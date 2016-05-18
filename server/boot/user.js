@@ -356,15 +356,17 @@ module.exports = function(app) {
             });
             return res.redirect('/');
           }
-          if (!user.isGithubCool) {
-            req.flash('errors', {
-              msg: dedent`
-                This user needs to link GitHub with their account
-                in order for others to be able to view their certificate.
-              `
-            });
-            return res.redirect('back');
-          }
+          
+          //lwq 改，显示证书的时候，不需要github登录
+          // if (!user.isGithubCool) {
+          //   req.flash('errors', {
+          //     msg: dedent`
+          //       This user needs to link GitHub with their account
+          //       in order for others to be able to view their certificate.
+          //     `
+          //   });
+          //   return res.redirect('back');
+          // }
 
           if (user.isCheater) {
             req.flash('errors', {

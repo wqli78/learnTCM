@@ -59,7 +59,7 @@ class Question extends React.Component {
     this._subscriptions = new CompositeDisposable();
   }
 
-  static displayName = 'Questions';
+  static displayName = '判断题';
 
   static propTypes = {
     // actions

@@ -23,7 +23,7 @@
         [
           "If an algorithm is efficient for small amounts of data, it will be equally efficient for large amounts of data.",
           false,
-          "It depends on the algorithm and the data it's processing."
+          "这是一个提示，告诉您为什么选择是错误的."
         ],
         [
           "Big O Notation reflects the speed of an algorithm in terms of the expected input.",
@@ -31,7 +31,8 @@
         ]
       ],
       "type": "hike",
-      "challengeType": 6
+      "challengeType": 6,
+      "isBeta": true
     },
     {
       "id": "56b15f15632298c12f31517a",
@@ -72,7 +73,8 @@
         ]
       ],
       "type": "hike",
-      "challengeType": 6
+      "challengeType": 6,
+      "isBeta": true
     }
   ]
 }

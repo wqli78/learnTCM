@@ -57,7 +57,8 @@
       "MDNlinks": [
         "RegExp"
       ],
-      "challengeType": 5
+      "challengeType": 5,
+      "isBeta": true
     },
     {
       "id": "a3f503de51cf954ede28891d",
@@ -94,7 +95,8 @@
         "Array.reduce()",
         "Symmetric Difference"
       ],
-      "challengeType": 5
+      "challengeType": 5,
+      "isBeta": true
     }
   ]
 }

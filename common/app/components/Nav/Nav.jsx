@@ -15,10 +15,7 @@ const fCClogo = '/images/freecodecamp_logo.svg';
 
 const logoElement = (
   <a href='/'>
-    <img
-      alt='learn to code javascript at Free Code Camp logo'
-      className='img-responsive nav-logo'
-      src={ fCClogo } />
+    莲池学堂
   </a>
 );
 
