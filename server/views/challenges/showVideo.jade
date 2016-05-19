@@ -28,7 +28,9 @@ block content
                     var userLoggedIn = true;
             .button-spacer
             .btn-group.input-group.btn-group-justified
-                .btn.btn-primary.btn-big#challenge-help-btn 获得帮助
+                // .btn.btn-primary.btn-big#challenge-help-btn 帮助
+                .btn.btn-primary.btn-big#challenge-help-btn(onclick="javascript:window.open(' http://dwz.cn/3ohq5j') ") 帮助
+
                 .btn.btn-primary.btn-big#trigger-issue-modal 提交bug
             if (!user)
                 .button-spacer

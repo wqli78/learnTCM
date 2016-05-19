@@ -164,7 +164,7 @@ module.exports = function(app) {
   }
 
   function chat(req, res) {
-    res.redirect('https://gitter.im/FreeCodeCamp/chinese');
+    res.redirect('https://gitter.im/wqli78/help');
   }
 
   function showLabs(req, res) {

@@ -2,12 +2,17 @@ var cheerio = require('cheerio'),
     request = require('request'),
     MDNlinks = require('../../seed/bonfireMDNlinks'),
     resources = require('./resources.json');
+    
+var lwqtr = require('transliteration');
+
 
 /**
  * Cached values
  */
 
 module.exports = {
+  
+  lwqtr:lwqtr,
   dasherize: function dasherize(name) {
     return ('' + name)
       .toLowerCase()

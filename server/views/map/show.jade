@@ -16,20 +16,20 @@ block content
           #noneFound 无搜索结果，请重试!
           for superBlock, index in superBlocks
               h2
-                a(data-toggle='collapse', data-parent='#accordion', href='#collapse'+superBlock.name.split(' ').join('-'))
+                a(data-toggle='collapse', data-parent='#accordion', href='#collapse'+superBlock.dashedName)
                   span.no-link-underline
                     i.fa.fa-caret-down
                   | #{superBlock.name}
-              div.margin-left-10(id = 'collapse'+superBlock.name.split(' ').join('-') class = "collapse in map-collapse no-transition certBlock")
+              div.margin-left-10(id = 'collapse'+superBlock.dashedName class = "collapse in map-collapse no-transition certBlock")
                   #nested
                       for challengeBlock in superBlock.blocks
                           h3
-                            a(data-toggle='collapse', data-parent='#nested', href='#nested-collapse'+challengeBlock.name.replace(/(\W)/gi, '').split(' ').join('-'))
+                            a(data-toggle='collapse', data-parent='#nested', href='#nested-collapse'+challengeBlock.dashedName)
                               span.no-link-underline
                                 i.fa.fa-caret-down
                               | #{challengeBlock.name}
                             span.challengeBlockTime (#{challengeBlock.time})
-                          div.margin-left-10(id = "nested-collapse"+challengeBlock.name.replace(/\W/gi, '').split(' ').join('-') class = "collapse in map-collapse no-transition chapterBlock")
+                          div.margin-left-10(id = "nested-collapse"+challengeBlock.dashedName class = "collapse in map-collapse no-transition chapterBlock")
                               for challenge in challengeBlock.challenges
                                   if challenge.completed
                                       p.challenge-title.faded.text-primary.ion-checkmark-circled.padded-ionic-icon.negative-15(name="#{challenge.dashedName}")

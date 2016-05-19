@@ -28,7 +28,8 @@
       "tests": [],
       "type": "basejump",
       "challengeType": 4,
-      "isRequired": true
+      "isRequired": true,
+      "isBeta": true
     },
     {
       "id": "bd7158d8c443eddfaeb5bdff",
@@ -51,7 +52,8 @@
       "tests": [],
       "type": "basejump",
       "challengeType": 4,
-      "isRequired": true
+      "isRequired": true,
+      "isBeta": true
     }
     
   ]

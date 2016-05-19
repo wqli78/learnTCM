@@ -7,6 +7,7 @@ import accepts from 'accepts';
 import { isMongoId } from 'validator';
 
 import {
+  lwqtr,
   dasherize,
   unDasherize,
   getMDNLinks,
@@ -252,6 +253,8 @@ function getSuperBlocks$(challenge$, challengeMap,findChallenge$,challengesQuery
       return challenge;
     })
     // group challenges by block | returns a stream of observables
+    //安装block进行分组，分组后效果
+    // {'经络详解':[c1,c2],....}
     .groupBy(challenge => challenge.block)
     // turn block group stream into an array
     .flatMap(block$ => block$.toArray())
@@ -274,7 +277,7 @@ function getSuperBlocks$(challenge$, challengeMap,findChallenge$,challengesQuery
         isRequired,
         name: blockArray[0].block,
         superBlock: blockArray[0].superBlock,
-        dashedName: dasherize(blockArray[0].block),
+        dashedName: dasherize(lwqtr(blockArray[0].block)),
         markNew: shouldShowNew(null, blockArray),
         challenges: blockArray,
         completed: completedCount / blockArray.length * 100,
@@ -283,10 +286,13 @@ function getSuperBlocks$(challenge$, challengeMap,findChallenge$,challengesQuery
     })
     .toArray()
     .flatMap(blocks => Observable.from(blocks, null, null, Scheduler.default))
+    //按照superblock分组，之后变成
+    //{'中医基础':[block1,block2],'高级中医'....}
     .groupBy(block => block.superBlock)
     .flatMap(blocks$ => blocks$.toArray())
     .map(superBlockArray => ({
       name: superBlockArray[0].superBlock,
+      dashedName:dasherize(lwqtr(superBlockArray[0].superBlock)),
       blocks: superBlockArray
     }))
     .toArray();
@@ -387,7 +393,14 @@ module.exports = function(app) {
     ))
     // filter out all challenges that have isBeta flag set
     // except in development or beta site
-    .filter(challenge => isDev || isBeta || !challenge.isBeta)
+    .filter(challenge => {
+      console.log(isDev);
+      console.log(isBeta);
+      console.log(challenge.title);
+      console.log(challenge.isBeta);
+      
+      return isDev || isBeta || !challenge.isBeta
+    })
     .shareReplay();
     
 

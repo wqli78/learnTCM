@@ -13,6 +13,9 @@ var onConnect = function() {
   if (timeoutHandler) {
     clearTimeout(timeoutHandler);
   }
+  
+    process.env.NODE_ENV='production';
+    
   app.start();
 };
 
