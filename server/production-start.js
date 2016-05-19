@@ -8,14 +8,12 @@ var app = require('./server');
 console.log('waiting for db to connect');
 
 
+
 var onConnect = function() {
   console.log('db connected in %s ms', Date.now() - startTime);
   if (timeoutHandler) {
     clearTimeout(timeoutHandler);
   }
-  
-    process.env.NODE_ENV='production';
-    
   app.start();
 };
 

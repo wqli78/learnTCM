@@ -393,12 +393,7 @@ module.exports = function(app) {
     ))
     // filter out all challenges that have isBeta flag set
     // except in development or beta site
-    .filter(challenge => {
-      console.log(isDev);
-      console.log(isBeta);
-      console.log(challenge.title);
-      console.log(challenge.isBeta);
-      
+    .filter(challenge => {      
       return isDev || isBeta || !challenge.isBeta
     })
     .shareReplay();
