@@ -1,0 +1,19 @@
+[{
+  "content": "学习路径",
+  "link": "/map"
+}, {
+  "content": "Chat",
+  "link": "//gitter.im/FreeCodeCamp/FreeCodeCamp",
+  "target": "_blank"
+},{
+  "content": "Wiki",
+  "link": "/wiki",
+  "target": "_blank"
+},{
+  "content": "关于",
+  "link": "/about"
+},{
+  "content": "Shop",
+  "link": "/shop",
+  "target": "_blank"
+}]

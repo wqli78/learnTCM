@@ -1,0 +1,75 @@
+{
+  "name": "四诊",
+  "order": 10,
+  "time": "30 分钟", 
+  "isComingSoon": true,
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "560add11cb84ac38a17513ba",
+      "title": "望",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "针法介绍",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "560add11cb84ac38a17513bb",
+      "title": "闻",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "针法介绍",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "560add11cb84ac38a17513bc",
+      "title": "问",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "针法介绍",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "560add11cb84ac38a17513bd",
+      "title": "切",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "针法介绍",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    }
+    
+  ]
+}
