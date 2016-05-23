@@ -1,0 +1,75 @@
+{
+  "name": "四小经典",
+  "order": 10,
+  "time": "40 天", 
+  "isComingSoon": true,
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "670add11cb84ac38a17613ba",
+      "title": "医学三字经",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "穴位概述",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "670add11cb84ac38a17613bb",
+      "title": "濒湖脉学",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "针法介绍",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "670add11cb84ac38a17613bc",
+      "title": "药性歌括",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "针法介绍",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "670add11cb84ac38a17613bd",
+      "title": "汤头歌诀",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "针法介绍",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    }
+    
+  ]
+}

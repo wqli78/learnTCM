@@ -1,0 +1,65 @@
+{
+  "name": "申请高级结业",
+  "order": 13,
+  "time": "5 分钟",
+  "challenges": [
+    {
+      "id": "561add10cb82ac38a17513da",
+      "title": "申请高级结业",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E5%9F%BA%E7%A1%80%E8%AF%81%E4%B9%A6.jpg",
+          "中医基础证书的图片",
+          "本次挑战将会授予你中医基础证书。在我们发行你的证书之前，必须验证你已经完成了所有的中医基础课程内容。你也要向我们做出学术诚信的承诺。点击下面的按钮开始。",
+          ""
+        ],
+        [
+          "http://learn.zhongyi06.com/%E6%89%BF%E8%AF%BA%E5%9B%BE.jpg",
+          "我已经认真学习了中医初级知识",
+          "点击下面的按钮，意味着你承诺你已经认真的学习完成了初级中医知识的全部课程，而不是简单敷衍。",
+          "#"
+        ],
+        [
+          "http://learn.zhongyi06.com/%E9%AA%8C%E8%AF%81%E5%88%9D%E7%BA%A7%E4%B8%AD%E5%8C%BB.jpg",
+          "确认您完成了所有的初级中医课程",
+          "让我们确认您已经完成了所有的初级中医知识课程。点击下方的按钮开始验证。",
+          "#"
+        ],
+        [
+          "http://learn.zhongyi06.com/%E5%AE%8C%E6%88%90%E9%AA%8C%E8%AF%81.jpg",
+          "恭喜完成图片",
+          "恭喜！我们已经将初级中医知识证书添加到你的记录。你的证书会一直公开有效。",
+          ""
+        ]
+      ],
+      "challengeSeed": [
+        {
+          "properties": [
+            "isHonest",
+            "isFrontEndCert"
+          ],
+          "apis": [
+            "/certificate/honest",
+            "/certificate/verify/front-end"
+          ],
+          "stepIndex": [
+            1,
+            2
+          ]
+        }
+      ],
+      "tests": [
+        {
+          "id": "560add10cb82ac38a17513cf",
+          "title": "Reverse a String"
+        },
+        {
+          "id": "bad87fee1348bd9acdd08826",
+          "title": "Factorialize a Number"
+        }
+      ],
+      "type": "Waypoint",
+      "challengeType": 7
+    }
+  ]
+}

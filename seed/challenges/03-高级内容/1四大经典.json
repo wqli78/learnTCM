@@ -1,0 +1,91 @@
+{
+  "name": "四大经典",
+  "order": 10,
+  "time": "100 天", 
+  "isComingSoon": true,
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "561add11cb86ac38a17613ba",
+      "title": "黄帝内经",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "穴位概述",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "561add11cb86ac38a17613bb",
+      "title": "难经",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "针法介绍",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "561add11cb86ac38a17613bc",
+      "title": "伤寒论",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "针法介绍",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "561add11cb86ac38a17613bd",
+      "title": "金贵要略",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "针法介绍",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "561add11cb86ac38a17613be",
+      "title": "神农本草经",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "针法介绍",
+          "莲池学堂是一个传统中医课程，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    }
+    
+  ]
+}
