@@ -1,11 +1,11 @@
 {
   "name": "基本概念",
   "order": 1,
-  "time": "30 分钟",
+  "time": "35 分钟",
   "helpRoom": "Help",
   "challenges": [
     {
-      "id": "560add10cb82ac38a18513cf",
+      "id": "5743d46b162994087a01bcef",
       "title": "道",
       "description": [
         [
@@ -40,7 +40,7 @@
       "type": "Waypoint",
       "challengeType": 7
     },{
-      "id": "560add10cb82ac38a17513cf",
+      "id": "5743d7b2c95fe11c4c0cef7f",
       "title": "阴阳",
       "description": [
         [
@@ -75,7 +75,7 @@
       "type": "Waypoint",
       "challengeType": 7
     }, {
-      "id": "bad87fee1348bd9acdd08826",
+      "id": "5743d7bac95fe11c4c0cef80",
       "title": "阴阳测试",
       "description": [
         "所有对阴阳理论的误解几乎都源于没有说明目的。",

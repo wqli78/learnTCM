@@ -134,11 +134,15 @@ function shouldNotFilterComingSoon({ isComingSoon, isBeta: challengeIsBeta }) {
     (isBeta && challengeIsBeta);
 }
 
+//原来的函数对课程名称进行了模糊查询，导致了误差，
+//修改为用dashedName进行匹配，精确查询
 function getRenderData$(user, challenge$, origChallengeName, solution) {
-  const challengeName = unDasherize(origChallengeName)
+  // const challengeName = unDasherize(origChallengeName)
+  const challengeName = origChallengeName
     .replace(challengesRegex, '');
 
-  const testChallengeName = new RegExp(challengeName, 'i');
+  // const testChallengeName = new RegExp(challengeName, 'i');
+  const testChallengeName = challengeName;
   log('looking for %s', testChallengeName);
 
   return challenge$
@@ -146,7 +150,8 @@ function getRenderData$(user, challenge$, origChallengeName, solution) {
     .filter((challenge) => {
       return shouldNotFilterComingSoon(challenge) &&
         challenge.type !== 'hike' &&
-        testChallengeName.test(challenge.name);
+        // testChallengeName.test(challenge.name);
+        testChallengeName==challenge.dashedName;
     })
     .last({ defaultValue: null })
     .flatMap(challenge => {
