@@ -20,6 +20,53 @@
       "tests": [],
       "type": "Waypoint",
       "challengeType": 7
+    },{
+      "id": "57559c4b6829d5b04adad062",
+      "title": "名人谈中医",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E5%AD%94%E5%AD%90.jpg",
+          "孔子谈养生",
+          "医之为道，乃古圣人所以泄天地之秘，夺造化之权，以救人之死，其理精妙入神，非聪明敏哲之人，不可学也；非虚怀灵变之人不可学也；非勤读善记之人不可学也",
+          "http://www.zyjishi.com/article/view/?cat_id=546dcba97bfc3be97e8b46c1&article_id=548a856a7bfc3bfe408b971b"
+        ], [
+          "http://learn.zhongyi06.com/%E6%A2%81%E6%BC%B1%E6%BA%9F.jpg",
+          "梁漱溟谈中西医差别",
+          "在当今学术界，有一个比较公认的提法，中国新儒家“三圣”——马一浮、熊十力、梁漱溟。梁先生是三人中活的时间最长，也是社会知名度最高的一位。他不仅在全国政协会上公开与毛泽东争执，而且是第一个否定“文化大革命”的人。",
+          "http://www.zyjishi.com/article/view/?cat_id=546dcba97bfc3be97e8b46c1&article_id=548ba06d7bfc3bfe408b9eec"
+        ], [
+          "http://learn.zhongyi06.com/%E8%B4%BE%E8%B0%A6.jpg",
+          "老中医访贾谦老师",
+          "原科技部国家中医药发展战略研究课题组组长，著《中医战略》一书",
+          "http://www.zyjishi.com/article/view/?cat_id=546dcba97bfc3be97e8b46c1&article_id=548a96337bfc3b203e8b7a7c"
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "5755a459fc43820035718c31",
+      "title": "求医经验",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E5%A4%A7%E5%B8%88%E9%AA%97%E5%AD%90-1440466316.jpg",
+          "谁人不生病，怎么样识破中医人与中医骗子！！",
+          "真正中医治病，一般不会信誓旦旦保证所有患者100%痊愈，大多说试试。而骗子不知轻重，开口就王婆式拍着胸口说100%痊愈，甚至高呼世界首创，中国第一。",
+          "http://www.zyjishi.com/article/view/?cat_id=546dcba97bfc3be97e8b46c1&article_id=55dbc58c7bfc3bce4e8b718b"
+        ], [
+          "",
+          "传统中医“六不治”与“十不治”！",
+          "传统中医认为祛除疾病、恢复健康的主导因素在于患者，医家只不过是一个重要的有积极或消极影响的外在因素而已，所以如果患者对健康和疾病存在错误认识和误区，再高明的医生也是无法取得好的治疗效果的。",
+          "http://www.zyjishi.com/article/view/?cat_id=546dcba97bfc3be97e8b46c1&article_id=567bb2f27bfc3b733d8bb2ef"
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
     }
     
   ]
