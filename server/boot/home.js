@@ -12,6 +12,7 @@ module.exports = function(app) {
   //lwq添加获得mongoid的方法：
   
   router.get('/mid', showMid);
+  router.get('/lwqupdate', lwqupdate);
   
   
   
@@ -48,6 +49,18 @@ module.exports = function(app) {
     let mid = objectId;
     
     res.send(mid);
+  }
+  
+  function lwqupdate(req,res) {
+    var exec = require('child_process').exec, 
+    var last = exec('/root/leartcm_update.sh'); 
+    last.stdout.on('data', function (data) { 
+    console.log('标准输出：' + data); 
+    }); 
+    last.on('exit', function (code) { 
+    console.log('子进程已关闭，代码：' + code); 
+    }); 
+    res.send('ok');
   }
   
 };
