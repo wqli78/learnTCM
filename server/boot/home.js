@@ -12,7 +12,7 @@ module.exports = function(app) {
   //lwq添加获得mongoid的方法：
   
   router.get('/mid', showMid);
-  router.get('/lwqupdate', lwqupdate);
+  router.post('/lwqupdate', lwqupdate);
   
   
   
