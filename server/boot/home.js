@@ -52,7 +52,7 @@ module.exports = function(app) {
   }
   
   function lwqupdate(req,res) {
-    var exec = require('child_process').exec, 
+    var exec = require('child_process').exec;
     var last = exec('/root/leartcm_update.sh'); 
     last.stdout.on('data', function (data) { 
     console.log('标准输出：' + data); 
