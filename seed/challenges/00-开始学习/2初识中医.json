@@ -1,0 +1,127 @@
+{
+  "name": "初识中医",
+  "order": 1,
+  "time": "5 小时",
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "575a69588a25149818e56649",
+      "title": "周恩来与中医",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E5%91%A8%E6%80%BB%E7%90%86.jpg",
+          "周恩来与中医",
+          " 1950年，林伯渠患呃逆，经西医治疗取效一时，不久又复发。周总理抽空参加病案讨论会，并建议改用中药治疗，后由上海名中医章次公治愈。总理感慨地说：“西医好，中医好，中西医结合更好”。",
+          "http://jk.zhongyi06.com/index.php?do=article&id=383&page=1"
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "57559c4b6829d5b04adad062",
+      "title": "一位德国老人对中医的认识与思考",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E6%B3%A2%E5%85%8B%E7%89%B9%E6%95%99%E6%8E%88.jpg",
+          "一位德国老人对中医的认识与思考",
+          "我开始是学西医的，而且在慕尼黑大学医学系当过老师，也有行医资格。如果不了解西医，我就没有资格批评西医。当然，我决不是说西医一无是处，这里我是从科学与技术的比较上讲的。从长远来看，中医应该比西医有更广阔的前景。因此，中医药学不仅是中国的骄傲，也是全人类的共同财富。",
+          "http://www.zyjishi.com/article/view/?cat_id=546dcb9c7bfc3be97e8b46bf&article_id=54a0edda7bfc3b1e068b79d4"
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "575acbb28a25149818e5664a",
+      "title": "梁漱溟谈中西医差别",
+      "description": [
+       [
+          "http://learn.zhongyi06.com/%E6%A2%81%E6%BC%B1%E6%BA%9F.jpg",
+          "梁漱溟谈中西医差别",
+          "在当今学术界，有一个比较公认的提法，中国新儒家“三圣”——马一浮、熊十力、梁漱溟。梁先生是三人中活的时间最长，也是社会知名度最高的一位。他不仅在全国政协会上公开与毛泽东争执，而且是第一个否定“文化大革命”的人。",
+          "http://www.zyjishi.com/article/view/?cat_id=546dcba97bfc3be97e8b46c1&article_id=548ba06d7bfc3bfe408b9eec"
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "575acd218a25149818e5664b",
+      "title": "老中医访贾谦老师",
+      "description": [
+      [
+          "http://learn.zhongyi06.com/%E8%B4%BE%E8%B0%A6.jpg",
+          "老中医访贾谦老师",
+          "原科技部国家中医药发展战略研究课题组组长，著《中医战略》一书",
+          "http://www.zyjishi.com/article/view/?cat_id=546dcba97bfc3be97e8b46c1&article_id=548a96337bfc3b203e8b7a7c"
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "575a43548a25149818e56648",
+      "title": "孔子谈养生",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E5%AD%94%E5%AD%90.jpg",
+          "孔子谈养生",
+          "医之为道，乃古圣人所以泄天地之秘，夺造化之权，以救人之死，其理精妙入神，非聪明敏哲之人，不可学也；非虚怀灵变之人不可学也；非勤读善记之人不可学也",
+          "http://www.zyjishi.com/article/view/?cat_id=546dcba97bfc3be97e8b46c1&article_id=548a856a7bfc3bfe408b971b"
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "575bbf888a25149818e5664c",
+      "title": "习大大说过和中医药相关的话",
+      "description": [
+        [
+          "http://n.sinaimg.cn/news/transform/20151222/JUE--fxmueaa3687645.jpg",
+          "习大大说过和中医药相关的话",
+          "中医药学凝聚着深邃的哲学智慧和中华民族几千年的健康养生理念及其实践经验，是中国古代科学的瑰宝，也是打开中华文明宝库的钥匙。深入研究和科学总结中医药学对丰富世界医学事业、推进生命科学研究具有积极意义",
+          "http://jk.zhongyi06.com/index.php?do=article&id=384&page=1"
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    },{
+      "id": "5755a459fc43820035718c31",
+      "title": "求医经验",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E5%85%AD%E4%B8%8D%E6%B2%BB.jpg",
+          "传统中医“六不治”与“十不治”！",
+          "传统中医认为祛除疾病、恢复健康的主导因素在于患者，医家只不过是一个重要的有积极或消极影响的外在因素而已，所以如果患者对健康和疾病存在错误认识和误区，再高明的医生也是无法取得好的治疗效果的。",
+          "http://www.zyjishi.com/article/view/?cat_id=546dcba97bfc3be97e8b46c1&article_id=567bb2f27bfc3b733d8bb2ef"
+        ],[
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E5%A4%A7%E5%B8%88%E9%AA%97%E5%AD%90-1440466316.jpg",
+          "谁人不生病，怎么样识破中医人与中医骗子！！",
+          "真正中医治病，一般不会信誓旦旦保证所有患者100%痊愈，大多说试试。而骗子不知轻重，开口就王婆式拍着胸口说100%痊愈，甚至高呼世界首创，中国第一。",
+          "http://www.zyjishi.com/article/view/?cat_id=546dcba97bfc3be97e8b46c1&article_id=55dbc58c7bfc3bce4e8b718b"
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    }
+    
+  ]
+}

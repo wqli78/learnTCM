@@ -1,0 +1,26 @@
+{
+  "name": "加入莲池学堂",
+  "order": 1,
+  "time": "15 分钟",
+  "helpRoom": "Help",
+  "challenges": [
+    {
+      "id": "5743d605c95fe11c4c0cef7e",
+      "title": "学习如何使用莲池学堂",
+      "description": [
+        [
+          "http://learn.zhongyi06.com/%E4%B8%AD%E5%8C%BB%E8%AF%BE%E5%A0%82.jpg",
+          "如何使用莲池学堂",
+          "莲池学堂是一个传统中医课程，循序渐进，免费学习。学完后可以获得证书哦。",
+          ""
+        ]
+        
+      ],
+      "challengeSeed": [],
+      "tests": [],
+      "type": "Waypoint",
+      "challengeType": 7
+    }
+    
+  ]
+}
